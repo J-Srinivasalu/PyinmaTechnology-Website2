@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: CavierDreams, sans-serif;
+}
+
+@font-face {
+    font-family: LeagueGothic;
+    src: url(../Pyinma_Tech/fonts/LeagueGothic-Regular.otf);
+}
+
+@font-face {
+    font-family: CavierDreams;
+    src: url(../Pyinma_Tech/fonts/CaviarDreams.ttf);
+}
+
+.header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 96px;
+}
+
+.info-header {
+    background-color: #e8b50e;
+}
+
+.nav-header {
+    background-color: #232323;
+    padding: 18px 0;
+}
+
+.header .nav-header .container nav ul {
+    display: flex;
+    list-style: none;
+}
+
+.header .nav-header .container nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 30px;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.logo {
+    width: 180px;
+}
+
+.contact-info,
+.media-icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 96px;
+}
+
+.contact-info i {
+    padding: 0 12px;
+}
+
+.fa-search {
+    color: #e8b50e;
+}
+
+.media-icons a {
+    text-align: center;
+    line-height: 33px;
+    height: 35px;
+    width: 35px;
+    margin: 0 4px;
+    font-size: 14px;
+    color: #232323;
+}
+
+.landing {
+    width: 100%;
+    height: 100vh;
+}
+
+.landing::before {
+    content: "";
+    margin-top: 115px;
+    background: url(images/landing_bg.jpeg) no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.8;
+}
+
+.banner {
+    width: 100%;
+    margin-top: 30px;
+    position: relative;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+
+}
+
+.banner .banner-heading {
+    font-weight: bold;
+    font-size: 32px;
+    color: #fff;
+    padding-bottom: 24px;
+}
+
+.banner .landing-heading-1 {
+    font-weight: bold;
+    font-size: 56px;
+    color: #fff;
+}
+.banner .landing-heading-2 {
+    font-weight: bold;
+    font-size: 56px;
+    color: #e8b50e;
+    padding-bottom: 24px;
+}
+
+.banner .banner-paragraph {
+    font-weight: bold;
+    color: #fff;
+    padding: 32px 296px 32px 296px;
+}
+
+.banner-btn{
+    width: 9rem;
+    height: 2.5rem;
+    background: #e8b50e;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 0.8rem;
+    border:0.1rem solid #c3990f;
+    cursor: pointer;
+    margin: 32px;
+}
+
