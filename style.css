@@ -262,3 +262,18 @@
 .service-item .banner-btn{
     margin: 12px 0;
 }
+
+.contact-us-container{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 32px 196px;
+}
+
+.info-footer-container{
+
+    padding: 30px 10px;
+    display: flex;
+    box-sizing: border-box;
+    justify-content: center,space-evenly;
+    margin: 32px 196px;
+}
