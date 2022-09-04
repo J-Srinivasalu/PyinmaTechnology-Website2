@@ -263,17 +263,74 @@
     margin: 12px 0;
 }
 
+.contact-us{
+    background-color:#e8b50e;
+    color: white;
+}
+
 .contact-us-container{
     display: flex;
     justify-content: space-evenly;
-    margin: 32px 196px;
+    padding: 32px 196px;
+}
+
+.form-bottom{
+    display: flex;
+}
+
+
+
+.input{
+    flex: 1;
+    padding: 8px 12px;
+    font-size: 12px;
+    border: none;
+    margin: 6px;
+    border-radius: 4px;
+}
+
+.input-submit{
+    padding: 8px 12px;
+    border: none;
+    margin: 6px;
+    background-color: #232323;
+    color: white;
+    border-radius: 4px;
 }
 
 .info-footer-container{
-
     padding: 30px 10px;
     display: flex;
     box-sizing: border-box;
-    justify-content: center,space-evenly;
-    margin: 32px 196px;
+    justify-content: center;
+    background-color: black;
+    padding: 32px 196px;
+}
+
+.info-footer{
+    background-color: black;
+    color: white;
+}
+
+.about-company{
+    flex: 2;
+    padding: 32px;
+}
+
+.explore-link{
+    flex: 1;
+    padding: 32px;
+}
+
+.info-contact-us{
+    flex: 1;
+    padding: 32px;
+}
+
+.copyright-footer-container{
+    text-align: center;
+    background-color: #232323;
+    color: #fff;
+    padding: 12px;
+    font-size: 12px;
 }
