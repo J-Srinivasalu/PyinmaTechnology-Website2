@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: CavierDreams, sans-serif;
+}
+
+@font-face {
+    font-family: LeagueGothic;
+    src: url(../Pyinma_Tech/fonts/LeagueGothic-Regular.otf);
+}
+
+@font-face {
+    font-family: CavierDreams;
+    src: url(../Pyinma_Tech/fonts/CaviarDreams.ttf);
+}
+
+.header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 96px;
+}
+
+.info-header {
+    background-color: #e8b50e;
+}
+
+.nav-header {
+    background-color: #232323;
+    padding: 18px 0;
+}
+
+.header .nav-header .container nav ul {
+    display: flex;
+    list-style: none;
+}
+
+.header .nav-header .container nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 30px;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.logo {
+    width: 180px;
+}
+
+.contact-info,
+.media-icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 96px;
+}
+
+.contact-info i {
+    padding: 0 12px;
+}
+
+.fa-search {
+    color: #e8b50e;
+}
+
+.media-icons a {
+    text-align: center;
+    line-height: 33px;
+    height: 35px;
+    width: 35px;
+    margin: 0 4px;
+    font-size: 14px;
+    color: #232323;
+}
+
+
+
+.info-footer-container{
+    padding: 30px 10px;
+    display: flex;
+    box-sizing: border-box;
+    justify-content: center;
+    background-color: black;
+    padding: 32px 196px;
+}
+
+.info-footer{
+    background-color: black;
+    color: white;
+}
+
+.about-company{
+    flex: 2;
+    padding: 32px;
+}
+
+.explore-link{
+    flex: 1;
+    padding: 32px;
+}
+
+.info-contact-us{
+    flex: 1;
+    padding: 32px;
+}
+
+.copyright-footer-container{
+    text-align: center;
+    background-color: #232323;
+    color: #fff;
+    padding: 12px;
+    font-size: 12px;
+}
+
